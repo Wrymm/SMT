@@ -1,1466 +1,1004 @@
-(declare-const c1 Bool)
-(declare-const c2 Bool)
-(declare-const c3 Bool)
-(declare-const c4 Bool)
-(declare-const c5 Bool)
-(declare-const c6 Bool)
-(declare-const c7 Bool)
-(declare-const c8 Bool)
-(declare-const c9 Bool)
-(declare-const c10 Bool)
-(declare-const c11 Bool)
-(declare-const c12 Bool)
-(declare-const c13 Bool)
-(declare-const c14 Bool)
-(declare-const c15 Bool)
-(declare-const c16 Bool)
-(declare-const c17 Bool)
-(declare-const c18 Bool)
-(declare-const c19 Bool)
-(declare-const c20 Bool)
-(declare-const c21 Bool)
-(declare-const c22 Bool)
-(declare-const c23 Bool)
-(declare-const c24 Bool)
-(declare-const c25 Bool)
-(declare-const c26 Bool)
-(declare-const c27 Bool)
-(declare-const c28 Bool)
-(declare-const c29 Bool)
-(declare-const c30 Bool)
-(declare-const c31 Bool)
-(declare-const c32 Bool)
-(declare-const c33 Bool)
-(declare-const c34 Bool)
-(declare-const c35 Bool)
-(declare-const c36 Bool)
-(declare-const c37 Bool)
-(declare-const c38 Bool)
-(declare-const c39 Bool)
-(declare-const c40 Bool)
-(declare-const c41 Bool)
-(declare-const c42 Bool)
-(declare-const c43 Bool)
-(declare-const c44 Bool)
-(declare-const c45 Bool)
-(declare-const c46 Bool)
-(declare-const c47 Bool)
-(declare-const c48 Bool)
-(declare-const c49 Bool)
-(declare-const c50 Bool)
-(declare-const c51 Bool)
-(declare-const c52 Bool)
-(declare-const c53 Bool)
-(declare-const c54 Bool)
-(declare-const c55 Bool)
-(declare-const c56 Bool)
-(declare-const c57 Bool)
-(declare-const c58 Bool)
-(declare-const c59 Bool)
-(declare-const c60 Bool)
-(declare-const c61 Bool)
-(declare-const c62 Bool)
-(declare-const c63 Bool)
-(declare-const c64 Bool)
-(declare-const c65 Bool)
-(declare-const c66 Bool)
-(declare-const c67 Bool)
-(declare-const c68 Bool)
-(declare-const c69 Bool)
-(declare-const c70 Bool)
-(declare-const c71 Bool)
-(declare-const c72 Bool)
-(declare-const c73 Bool)
-(declare-const c74 Bool)
-(declare-const c75 Bool)
-(declare-const c76 Bool)
-(declare-const c77 Bool)
-(declare-const c78 Bool)
-(declare-const c79 Bool)
-(declare-const c80 Bool)
-(declare-const c81 Bool)
-(declare-const c82 Bool)
-(declare-const c83 Bool)
-(declare-const c84 Bool)
-(declare-const c85 Bool)
-(declare-const c86 Bool)
-(declare-const c87 Bool)
-(declare-const c88 Bool)
-(declare-const c89 Bool)
-(declare-const c90 Bool)
-(declare-const c91 Bool)
-(declare-const c92 Bool)
-(declare-const c93 Bool)
-(declare-const c94 Bool)
-(declare-const c95 Bool)
-(declare-const c96 Bool)
-(declare-const c97 Bool)
-(declare-const c98 Bool)
-(declare-const c99 Bool)
-(declare-const c100 Bool)
-(declare-const c101 Bool)
-(declare-const c102 Bool)
-(declare-const c103 Bool)
-(declare-const c104 Bool)
-(declare-const c105 Bool)
-(declare-const c106 Bool)
-(declare-const c107 Bool)
-(declare-const c108 Bool)
-(declare-const c109 Bool)
-(declare-const c110 Bool)
-(declare-const c111 Bool)
-(declare-const c112 Bool)
-(declare-const c113 Bool)
-(declare-const c114 Bool)
-(declare-const c115 Bool)
-(declare-const c116 Bool)
-(declare-const c117 Bool)
-(declare-const c118 Bool)
-(declare-const c119 Bool)
-(declare-const c120 Bool)
-(declare-const c121 Bool)
-(declare-const c122 Bool)
-(declare-const c123 Bool)
-(declare-const c124 Bool)
-(declare-const c125 Bool)
-(declare-const c126 Bool)
-(declare-const c127 Bool)
-(declare-const c128 Bool)
-(declare-const c129 Bool)
-(declare-const c130 Bool)
-(declare-const c131 Bool)
-(declare-const c132 Bool)
-(declare-const c133 Bool)
-(declare-const c134 Bool)
-(declare-const c135 Bool)
-(declare-const c136 Bool)
-(declare-const c137 Bool)
-(declare-const c138 Bool)
-(declare-const c139 Bool)
-(declare-const c140 Bool)
-(declare-const c141 Bool)
-(declare-const c142 Bool)
-(declare-const c143 Bool)
-(declare-const c144 Bool)
-(declare-const c145 Bool)
-(declare-const c146 Bool)
-(declare-const c147 Bool)
-(declare-const c148 Bool)
-(declare-const c149 Bool)
-(declare-const c150 Bool)
-(declare-const c151 Bool)
-(declare-const c152 Bool)
-(declare-const c153 Bool)
-(declare-const c154 Bool)
-(declare-const c155 Bool)
-(declare-const c156 Bool)
-(declare-const c157 Bool)
-(declare-const c158 Bool)
-(declare-const c159 Bool)
-(declare-const c160 Bool)
-(declare-const c161 Bool)
-(declare-const c162 Bool)
-(declare-const c163 Bool)
-(declare-const c164 Bool)
-(declare-const c165 Bool)
-(declare-const c166 Bool)
-(declare-const c167 Bool)
-(declare-const c168 Bool)
-(declare-const c169 Bool)
-(declare-const c170 Bool)
-(declare-const c171 Bool)
-(declare-const c172 Bool)
-(declare-const c173 Bool)
-(declare-const c174 Bool)
-(declare-const c175 Bool)
-(declare-const c176 Bool)
-(declare-const c177 Bool)
-(declare-const c178 Bool)
-(declare-const c179 Bool)
-(declare-const c180 Bool)
-(declare-const c181 Bool)
-(declare-const c182 Bool)
-(declare-const c183 Bool)
-(declare-const c184 Bool)
-(declare-const c185 Bool)
-(declare-const c186 Bool)
-(declare-const c187 Bool)
-(declare-const c188 Bool)
-(declare-const c189 Bool)
-(declare-const c190 Bool)
-(declare-const c191 Bool)
-(declare-const c192 Bool)
-(declare-const c193 Bool)
-(declare-const c194 Bool)
-(declare-const c195 Bool)
-(declare-const c196 Bool)
-(declare-const c197 Bool)
-(declare-const c198 Bool)
-(declare-const c199 Bool)
-(declare-const c200 Bool)
-(declare-const c201 Bool)
-(declare-const c202 Bool)
-(declare-const c203 Bool)
-(declare-const c204 Bool)
-(declare-const c205 Bool)
-(declare-const c206 Bool)
-(declare-const c207 Bool)
-(declare-const c208 Bool)
-(declare-const c209 Bool)
-(declare-const c210 Bool)
-(declare-const c211 Bool)
-(declare-const c212 Bool)
-(declare-const c213 Bool)
-(declare-const c214 Bool)
-(declare-const c215 Bool)
-(declare-const c216 Bool)
-(declare-const c217 Bool)
-(declare-const c218 Bool)
-(declare-const c219 Bool)
-(declare-const c220 Bool)
-(declare-const c221 Bool)
-(declare-const c222 Bool)
-(declare-const c223 Bool)
-(declare-const c224 Bool)
-(declare-const c225 Bool)
-(declare-const c226 Bool)
-(declare-const c227 Bool)
-(declare-const c228 Bool)
-(declare-const c229 Bool)
-(declare-const c230 Bool)
-(declare-const c231 Bool)
-(declare-const c232 Bool)
-(declare-const c233 Bool)
-(declare-const c234 Bool)
-(declare-const c235 Bool)
-(declare-const c236 Bool)
-(declare-const c237 Bool)
-(declare-const c238 Bool)
-(declare-const c239 Bool)
-(declare-const c240 Bool)
-(declare-const c241 Bool)
-(declare-const c242 Bool)
-(declare-const c243 Bool)
-(declare-const c244 Bool)
-(declare-const c245 Bool)
-(declare-const c246 Bool)
-(declare-const c247 Bool)
-(declare-const c248 Bool)
-(declare-const c249 Bool)
-(declare-const c250 Bool)
-(declare-const c251 Bool)
-(declare-const c252 Bool)
-(declare-const c253 Bool)
-(declare-const c254 Bool)
-(declare-const c255 Bool)
-(declare-const c256 Bool)
-(declare-const c257 Bool)
-(declare-const c258 Bool)
-(declare-const c259 Bool)
-(declare-const c260 Bool)
-(declare-const c261 Bool)
-(declare-const c262 Bool)
-(declare-const c263 Bool)
-(declare-const c264 Bool)
-(declare-const c265 Bool)
-(declare-const c266 Bool)
-(declare-const c267 Bool)
-(declare-const c268 Bool)
-(declare-const c269 Bool)
-(declare-const c270 Bool)
-(declare-const c271 Bool)
-(declare-const c272 Bool)
-(declare-const c273 Bool)
-(declare-const c274 Bool)
-(declare-const c275 Bool)
-(declare-const c276 Bool)
-(declare-const c277 Bool)
-(declare-const c278 Bool)
-(declare-const c279 Bool)
-(declare-const c280 Bool)
-(declare-const c281 Bool)
-(declare-const c282 Bool)
-(declare-const c283 Bool)
-(declare-const c284 Bool)
-(declare-const c285 Bool)
-(declare-const c286 Bool)
-(declare-const c287 Bool)
-(declare-const c288 Bool)
-(declare-const c289 Bool)
-(declare-const c290 Bool)
-(declare-const c291 Bool)
-(declare-const c292 Bool)
-(declare-const c293 Bool)
-(declare-const c294 Bool)
-(declare-const c295 Bool)
-(declare-const c296 Bool)
-(declare-const c297 Bool)
-(declare-const c298 Bool)
-(declare-const c299 Bool)
-(declare-const c300 Bool)
-(declare-const c301 Bool)
-(declare-const c302 Bool)
-(declare-const c303 Bool)
-(declare-const c304 Bool)
-(declare-const c305 Bool)
-(declare-const c306 Bool)
-(declare-const c307 Bool)
-(declare-const c308 Bool)
-(declare-const c309 Bool)
-(declare-const c310 Bool)
-(declare-const c311 Bool)
-(declare-const c312 Bool)
-(declare-const c313 Bool)
-(declare-const c314 Bool)
-(declare-const c315 Bool)
-(declare-const c316 Bool)
-(declare-const c317 Bool)
-(declare-const c318 Bool)
-(declare-const c319 Bool)
-(declare-const c320 Bool)
-(declare-const c321 Bool)
-(declare-const c322 Bool)
-(declare-const c323 Bool)
-(declare-const c324 Bool)
-(declare-const c325 Bool)
-(declare-const c326 Bool)
-(declare-const c327 Bool)
-(declare-const c328 Bool)
-(declare-const c329 Bool)
-(declare-const c330 Bool)
-(declare-const c331 Bool)
-(declare-const c332 Bool)
-(declare-const c333 Bool)
-(declare-const c334 Bool)
-(declare-const c335 Bool)
-(declare-const c336 Bool)
-(declare-const m0 Bool)
-(declare-const m1 Bool)
-(declare-const m2 Bool)
-(declare-const m3 Bool)
-(declare-const u0 Int)
-(declare-const u1 Int)
-(declare-const d1 Int)
-(declare-const d2 Int)
-(declare-const d3 Int)
-(declare-const d4 Int)
-(declare-const d5 Int)
-(declare-const d6 Int)
-(declare-const d7 Int)
-(declare-const d8 Int)
-(declare-const d9 Int)
-(declare-const d10 Int)
-(declare-const d11 Int)
-(declare-const d12 Int)
-(declare-const d13 Int)
-(declare-const d14 Int)
-(declare-const d15 Int)
-(declare-const d16 Int)
-(declare-const d17 Int)
-(declare-const d18 Int)
-(declare-const d19 Int)
-(declare-const d20 Int)
-(declare-const d21 Int)
-(declare-const d22 Int)
-(declare-const d23 Int)
-(declare-const d24 Int)
-(declare-const d25 Int)
-(declare-const d26 Int)
-(declare-const d27 Int)
-(declare-const d28 Int)
-(declare-const d29 Int)
-(declare-const d30 Int)
-(declare-const d31 Int)
-(declare-const d32 Int)
-(declare-const d33 Int)
-(declare-const d34 Int)
-(declare-const d35 Int)
-(declare-const d36 Int)
-(declare-const d37 Int)
-(declare-const d38 Int)
-(declare-const d39 Int)
-(declare-const d40 Int)
-(declare-const d41 Int)
-(declare-const d42 Int)
-(declare-const d43 Int)
-(declare-const d44 Int)
-(declare-const d45 Int)
-(declare-const d46 Int)
-(declare-const d47 Int)
-(declare-const d48 Int)
-(declare-const d49 Int)
-(declare-const d50 Int)
-(declare-const d51 Int)
-(declare-const d52 Int)
-(declare-const d53 Int)
-(declare-const d54 Int)
-(declare-const d55 Int)
-(declare-const d56 Int)
-(declare-const d57 Int)
-(declare-const d58 Int)
-(declare-const d59 Int)
-(declare-const d60 Int)
-(declare-const d61 Int)
-(declare-const d62 Int)
-(declare-const d63 Int)
-(declare-const d64 Int)
-(declare-const d65 Int)
-(declare-const d66 Int)
-(declare-const d67 Int)
-(declare-const d68 Int)
-(declare-const d69 Int)
-(declare-const d70 Int)
-(declare-const d71 Int)
-(declare-const d72 Int)
-(declare-const d73 Int)
-(declare-const d74 Int)
-(declare-const d75 Int)
-(declare-const d76 Int)
-(declare-const d77 Int)
-(declare-const d78 Int)
-(declare-const d79 Int)
-(declare-const d80 Int)
-(declare-const d81 Int)
-(declare-const d82 Int)
-(declare-const d83 Int)
-(declare-const d84 Int)
-(declare-const d85 Int)
-(declare-const d86 Int)
-(declare-const d87 Int)
-(declare-const d88 Int)
-(declare-const d89 Int)
-(declare-const d90 Int)
-(declare-const d91 Int)
-(declare-const d92 Int)
-(declare-const d93 Int)
-(declare-const d94 Int)
-(declare-const d95 Int)
-(declare-const d96 Int)
-(declare-const d97 Int)
-(declare-const d98 Int)
-(declare-const d99 Int)
-(declare-const d100 Int)
-(declare-const d101 Int)
-(declare-const d102 Int)
-(declare-const d103 Int)
-(declare-const d104 Int)
-(declare-const d105 Int)
-(declare-const d106 Int)
-(declare-const d107 Int)
-(declare-const d108 Int)
-(declare-const d109 Int)
-(declare-const d110 Int)
-(declare-const d111 Int)
-(declare-const d112 Int)
-(declare-const d113 Int)
-(declare-const d114 Int)
-(declare-const d115 Int)
-(declare-const d116 Int)
-(declare-const d117 Int)
-(declare-const d118 Int)
-(declare-const d119 Int)
-(declare-const d120 Int)
-(declare-const d121 Int)
-(declare-const d122 Int)
-(declare-const d123 Int)
-(declare-const d124 Int)
-(declare-const d125 Int)
-(declare-const d126 Int)
-(declare-const d127 Int)
-(declare-const d128 Int)
-(declare-const d129 Int)
-(declare-const d130 Int)
-(declare-const d131 Int)
-(declare-const d132 Int)
-(declare-const d133 Int)
-(declare-const d134 Int)
-(declare-const d135 Int)
-(declare-const d136 Int)
-(declare-const d137 Int)
-(declare-const d138 Int)
-(declare-const d139 Int)
-(declare-const d140 Int)
-(declare-const d141 Int)
-(declare-const d142 Int)
-(declare-const d143 Int)
-(declare-const d144 Int)
-(declare-const d145 Int)
-(declare-const d146 Int)
-(declare-const d147 Int)
-(declare-const d148 Int)
-(declare-const d149 Int)
-(declare-const d150 Int)
-(declare-const d151 Int)
-(declare-const d152 Int)
-(declare-const d153 Int)
-(declare-const d154 Int)
-(declare-const d155 Int)
-(declare-const d156 Int)
-(declare-const d157 Int)
-(declare-const d158 Int)
-(declare-const d159 Int)
-(declare-const d160 Int)
-(declare-const d161 Int)
-(declare-const d162 Int)
-(declare-const d163 Int)
-(declare-const d164 Int)
-(declare-const d165 Int)
-(declare-const d166 Int)
-(declare-const d167 Int)
-(declare-const d168 Int)
-(declare-const d169 Int)
-(declare-const d170 Int)
-(declare-const d171 Int)
-(declare-const d172 Int)
-(declare-const d173 Int)
-(declare-const d174 Int)
-(declare-const d175 Int)
-(declare-const d176 Int)
-(declare-const d177 Int)
-(declare-const d178 Int)
-(declare-const d179 Int)
-(declare-const d180 Int)
-(declare-const d181 Int)
-(declare-const d182 Int)
-(declare-const d183 Int)
-(declare-const d184 Int)
-(declare-const d185 Int)
-(declare-const d186 Int)
-(declare-const d187 Int)
-(declare-const d188 Int)
-(declare-const d189 Int)
-(declare-const d190 Int)
-(declare-const d191 Int)
-(declare-const d192 Int)
-(declare-const d193 Int)
-(declare-const d194 Int)
-(declare-const d195 Int)
-(declare-const d196 Int)
-(declare-const d197 Int)
-(declare-const d198 Int)
-(declare-const d199 Int)
-(declare-const d200 Int)
-(declare-const d201 Int)
-(declare-const d202 Int)
-(declare-const d203 Int)
-(declare-const d204 Int)
-(declare-const d205 Int)
-(declare-const d206 Int)
-(declare-const d207 Int)
-(declare-const d208 Int)
-(declare-const d209 Int)
-(declare-const d210 Int)
-(declare-const d211 Int)
-(declare-const d212 Int)
-(declare-const d213 Int)
-(declare-const d214 Int)
-(declare-const d215 Int)
-(declare-const d216 Int)
-(declare-const d217 Int)
-(declare-const d218 Int)
-(declare-const d219 Int)
-(declare-const d220 Int)
-(declare-const d221 Int)
-(declare-const d222 Int)
-(declare-const d223 Int)
-(declare-const d224 Int)
-(declare-const d225 Int)
-(declare-const d226 Int)
-(declare-const d227 Int)
-(declare-const d228 Int)
-(declare-const d229 Int)
-(declare-const d230 Int)
-(declare-const d231 Int)
-(declare-const d232 Int)
-(declare-const d233 Int)
-(declare-const d234 Int)
-(declare-const d235 Int)
-(declare-const d236 Int)
-(declare-const d237 Int)
-(declare-const d238 Int)
-(declare-const d239 Int)
-(declare-const d240 Int)
-(declare-const d241 Int)
-(declare-const d242 Int)
-(declare-const d243 Int)
-(declare-const d244 Int)
-(declare-const d245 Int)
-(declare-const d246 Int)
-(declare-const d247 Int)
-(declare-const d248 Int)
-(declare-const d249 Int)
-(declare-const d250 Int)
-(declare-const d251 Int)
-(declare-const d252 Int)
-(declare-const d253 Int)
-(declare-const d254 Int)
-(declare-const d255 Int)
-(declare-const d256 Int)
-(declare-const d257 Int)
-(declare-const d258 Int)
-(declare-const d259 Int)
-(declare-const d260 Int)
-(declare-const d261 Int)
-(declare-const d262 Int)
-(declare-const d263 Int)
-(declare-const d264 Int)
-(declare-const d265 Int)
-(declare-const d266 Int)
-(declare-const d267 Int)
-(declare-const d268 Int)
-(declare-const d269 Int)
-(declare-const d270 Int)
-(declare-const d271 Int)
-(declare-const d272 Int)
-(declare-const d273 Int)
-(declare-const d274 Int)
-(declare-const d275 Int)
-(declare-const d276 Int)
-(declare-const d277 Int)
-(declare-const d278 Int)
-(declare-const d279 Int)
-(declare-const d280 Int)
-(declare-const d281 Int)
-(declare-const d282 Int)
-(declare-const d283 Int)
-(declare-const d284 Int)
-(declare-const d285 Int)
-(declare-const d286 Int)
-(declare-const d287 Int)
-(declare-const d288 Int)
-(declare-const d289 Int)
-(declare-const d290 Int)
-(declare-const d291 Int)
-(declare-const d292 Int)
-(declare-const d293 Int)
-(declare-const d294 Int)
-(declare-const d295 Int)
-(declare-const d296 Int)
-(declare-const d297 Int)
-(declare-const d298 Int)
-(declare-const d299 Int)
-(declare-const d300 Int)
-(declare-const d301 Int)
-(declare-const d302 Int)
-(declare-const d303 Int)
-(declare-const d304 Int)
-(declare-const d305 Int)
-(declare-const d306 Int)
-(declare-const d307 Int)
-(declare-const d308 Int)
-(declare-const d309 Int)
-(declare-const d310 Int)
-(declare-const d311 Int)
-(declare-const d312 Int)
-(declare-const d313 Int)
-(declare-const d314 Int)
-(declare-const d315 Int)
-(declare-const d316 Int)
-(declare-const d317 Int)
-(declare-const d318 Int)
-(declare-const d319 Int)
-(declare-const d320 Int)
-(declare-const d321 Int)
-(declare-const d322 Int)
-(declare-const d323 Int)
-(declare-const d324 Int)
-(declare-const d325 Int)
-(declare-const d326 Int)
-(declare-const d327 Int)
-(declare-const d328 Int)
-(declare-const d329 Int)
-(declare-const d330 Int)
-(declare-const d331 Int)
-(declare-const d332 Int)
-(declare-const d333 Int)
-(declare-const d334 Int)
-(declare-const d335 Int)
-(declare-const d336 Int)
-(assert (not c1))
-(assert (not c2))
-(assert (not c3))
-(assert (not c4))
-(assert (not c5))
-(assert (not c6))
-(assert (not c7))
-(assert (not c8))
-(assert (not c9))
-(assert (not c10))
-(assert (not c11))
-(assert (not c12))
-(assert (not c13))
-(assert (not c14))
-(assert (not c15))
-(assert (not c16))
-(assert (not c17))
-(assert (not c18))
-(assert (not c19))
-(assert (not c20))
-(assert (not c21))
-(assert (not c22))
-(assert (not c23))
-(assert (not c24))
-(assert (not c25))
-(assert (not c26))
-(assert (not c27))
-(assert (not c28))
-(assert (not c29))
-(assert (not c30))
-(assert (not c31))
-(assert (not c32))
-(assert (not c33))
-(assert (not c34))
-(assert (not c35))
-(assert (not c36))
-(assert (not c37))
-(assert (not c38))
-(assert (not c39))
-(assert (not c40))
-(assert (not c41))
-(assert (not c42))
-(assert (not c43))
-(assert (not c44))
-(assert (not c45))
-(assert (not c46))
-(assert (not c47))
-(assert (not c48))
-(assert (not c49))
-(assert (not c50))
-(assert (not c51))
-(assert (not c52))
-(assert (or (not c101) c53))
-(assert (or (not c50) c54))
-(assert (or (not c7) c55))
-(assert (or (not c60) c56))
-(assert (or (not c53) c101))
-(assert (or (not c54) c50))
-(assert (or (not c55) c7))
-(assert (or (not c56) c60))
-(assert (or (not c53) (= d53 d101)))
-(assert (or (not c54) (= d54 d50)))
-(assert (or (not c55) (= d55 d7)))
-(assert (or (not c56) (= d56 d60)))
-(assert (or (not m0) (not c54) c57))
-(assert (or (not m0) (not c11) c60))
-(assert (or (not m0) (not c64) c59))
-(assert (or (not m0) (not c105) c58))
-(assert (or (not m0) (not c57) c54))
-(assert (or (not m0) (not c60) c11))
-(assert (or (not m0) (not c59) c64))
-(assert (or (not m0) (not c58) c105))
-(assert (or m0 (not c54) c59))
-(assert (or m0 (not c11) c58))
-(assert (or m0 (not c64) c57))
-(assert (or m0 (not c105) c60))
-(assert (or m0 (not c59) c54))
-(assert (or m0 (not c58) c11))
-(assert (or m0 (not c57) c64))
-(assert (or m0 (not c60) c105))
-(assert (or (not m0) (or (not c57) (= d57 d54))))
-(assert (or (not m0) (or (not c58) (= d58 d105))))
-(assert (or (not m0) (or (not c59) (= d59 d64))))
-(assert (or (not m0) (or (not c60) (= d60 d11))))
-(assert (or m0 (or (not c57) (= d57 d64))))
-(assert (or m0 (or (not c58) (= d58 d11))))
-(assert (or m0 (or (not c59) (= d59 d54))))
-(assert (or m0 (or (not c60) (= d60 d105))))
-(assert (or (not c109) c61))
-(assert (or (not c58) c62))
-(assert (or (not c15) c63))
-(assert (or (not c68) c64))
-(assert (or (not c61) c109))
-(assert (or (not c62) c58))
-(assert (or (not c63) c15))
-(assert (or (not c64) c68))
-(assert (or (not c61) (= d61 d109)))
-(assert (or (not c62) (= d62 d58)))
-(assert (or (not c63) (= d63 d15)))
-(assert (or (not c64) (= d64 d68)))
-(assert (or (not c113) c65))
-(assert (or (not c62) c66))
-(assert (or (not c19) c67))
-(assert (or (not c72) c68))
-(assert (or (not c65) c113))
-(assert (or (not c66) c62))
-(assert (or (not c67) c19))
-(assert (or (not c68) c72))
-(assert (or (not c65) (= d65 d113)))
-(assert (or (not c66) (= d66 d62)))
-(assert (or (not c67) (= d67 d19)))
-(assert (or (not c68) (= d68 d72)))
-(assert (or (not c117) c69))
-(assert (or (not c66) c70))
-(assert (or (not c23) c71))
-(assert (or (not c76) c72))
-(assert (or (not c69) c117))
-(assert (or (not c70) c66))
-(assert (or (not c71) c23))
-(assert (or (not c72) c76))
-(assert (or (not c69) (= d69 d117)))
-(assert (or (not c70) (= d70 d66)))
-(assert (or (not c71) (= d71 d23)))
-(assert (or (not c72) (= d72 d76)))
-(assert (or (not c121) c73))
-(assert (or (not c70) c74))
-(assert (or (not c27) c75))
-(assert (or (not c80) c76))
-(assert (or (not c73) c121))
-(assert (or (not c74) c70))
-(assert (or (not c75) c27))
-(assert (or (not c76) c80))
-(assert (or (not c73) (= d73 d121)))
-(assert (or (not c74) (= d74 d70)))
-(assert (or (not c75) (= d75 d27)))
-(assert (or (not c76) (= d76 d80)))
-(assert (or (not c125) c77))
-(assert (or (not c74) c78))
-(assert (or (not c31) c79))
-(assert (or (not c84) c80))
-(assert (or (not c77) c125))
-(assert (or (not c78) c74))
-(assert (or (not c79) c31))
-(assert (or (not c80) c84))
-(assert (or (not c77) (= d77 d125)))
-(assert (or (not c78) (= d78 d74)))
-(assert (or (not c79) (= d79 d31)))
-(assert (or (not c80) (= d80 d84)))
-(assert (or (not m1) (not c78) c81))
-(assert (or (not m1) (not c35) c84))
-(assert (or (not m1) (not c88) c83))
-(assert (or (not m1) (not c129) c82))
-(assert (or (not m1) (not c81) c78))
-(assert (or (not m1) (not c84) c35))
-(assert (or (not m1) (not c83) c88))
-(assert (or (not m1) (not c82) c129))
-(assert (or m1 (not c78) c83))
-(assert (or m1 (not c35) c82))
-(assert (or m1 (not c88) c81))
-(assert (or m1 (not c129) c84))
-(assert (or m1 (not c83) c78))
-(assert (or m1 (not c82) c35))
-(assert (or m1 (not c81) c88))
-(assert (or m1 (not c84) c129))
-(assert (or (not m1) (or (not c81) (= d81 d78))))
-(assert (or (not m1) (or (not c82) (= d82 d129))))
-(assert (or (not m1) (or (not c83) (= d83 d88))))
-(assert (or (not m1) (or (not c84) (= d84 d35))))
-(assert (or m1 (or (not c81) (= d81 d88))))
-(assert (or m1 (or (not c82) (= d82 d35))))
-(assert (or m1 (or (not c83) (= d83 d78))))
-(assert (or m1 (or (not c84) (= d84 d129))))
-(assert (or (not c133) c85))
-(assert (or (not c82) c86))
-(assert (or (not c39) c87))
-(assert (or (not c92) c88))
-(assert (or (not c85) c133))
-(assert (or (not c86) c82))
-(assert (or (not c87) c39))
-(assert (or (not c88) c92))
-(assert (or (not c85) (= d85 d133)))
-(assert (or (not c86) (= d86 d82)))
-(assert (or (not c87) (= d87 d39)))
-(assert (or (not c88) (= d88 d92)))
-(assert (or (not c137) c89))
-(assert (or (not c86) c90))
-(assert (or (not c43) c91))
-(assert (or (not c96) c92))
-(assert (or (not c89) c137))
-(assert (or (not c90) c86))
-(assert (or (not c91) c43))
-(assert (or (not c92) c96))
-(assert (or (not c89) (= d89 d137)))
-(assert (or (not c90) (= d90 d86)))
-(assert (or (not c91) (= d91 d43)))
-(assert (or (not c92) (= d92 d96)))
-(assert (not c93))
-(assert (not c94))
-(assert (not c95))
-(assert (not c96))
-(assert (not c97))
-(assert (not c98))
-(assert (not c99))
-(assert (not c100))
-(assert (or (not c149) c101))
-(assert (or (not c98) c102))
-(assert (or (not c55) c103))
-(assert (or (not c108) c104))
-(assert (or (not c101) c149))
-(assert (or (not c102) c98))
-(assert (or (not c103) c55))
-(assert (or (not c104) c108))
-(assert (or (not c101) (= d101 d149)))
-(assert (or (not c102) (= d102 d98)))
-(assert (or (not c103) (= d103 d55)))
-(assert (or (not c104) (= d104 d108)))
-(assert (or (not c153) c105))
-(assert (or (not c102) c106))
-(assert (or (not c59) c107))
-(assert (or (not c112) c108))
-(assert (or (not c105) c153))
-(assert (or (not c106) c102))
-(assert (or (not c107) c59))
-(assert (or (not c108) c112))
-(assert (or (not c105) (= d105 d153)))
-(assert (or (not c106) (= d106 d102)))
-(assert (or (not c107) (= d107 d59)))
-(assert (or (not c108) (= d108 d112)))
-(assert (or (not c157) c109))
-(assert (or (not c106) c110))
-(assert (or (not c63) c111))
-(assert (or (not c116) c112))
-(assert (or (not c109) c157))
-(assert (or (not c110) c106))
-(assert (or (not c111) c63))
-(assert (or (not c112) c116))
-(assert (or (not c109) (= d109 d157)))
-(assert (or (not c110) (= d110 d106)))
-(assert (or (not c111) (= d111 d63)))
-(assert (or (not c112) (= d112 d116)))
-(assert (or (not c161) c113))
-(assert (or (not c110) c114))
-(assert (or (not c67) c115))
-(assert (or (not c120) c116))
-(assert (or (not c113) c161))
-(assert (or (not c114) c110))
-(assert (or (not c115) c67))
-(assert (or (not c116) c120))
-(assert (or (not c113) (= d113 d161)))
-(assert (or (not c114) (= d114 d110)))
-(assert (or (not c115) (= d115 d67)))
-(assert (or (not c116) (= d116 d120)))
-(assert (or (not c165) c117))
-(assert (or (not c114) c118))
-(assert (or (not c71) c119))
-(assert (or (not c124) c120))
-(assert (or (not c117) c165))
-(assert (or (not c118) c114))
-(assert (or (not c119) c71))
-(assert (or (not c120) c124))
-(assert (or (not c117) (= d117 d165)))
-(assert (or (not c118) (= d118 d114)))
-(assert (or (not c119) (= d119 d71)))
-(assert (or (not c120) (= d120 d124)))
-(assert (or (not c169) c121))
-(assert (or (not c118) c122))
-(assert (or (not c75) c123))
-(assert (or (not c128) c124))
-(assert (or (not c121) c169))
-(assert (or (not c122) c118))
-(assert (or (not c123) c75))
-(assert (or (not c124) c128))
-(assert (or (not c121) (= d121 d169)))
-(assert (or (not c122) (= d122 d118)))
-(assert (or (not c123) (= d123 d75)))
-(assert (or (not c124) (= d124 d128)))
-(assert (or (not c173) c125))
-(assert (or (not c122) c126))
-(assert (or (not c79) c127))
-(assert (or (not c132) c128))
-(assert (or (not c125) c173))
-(assert (or (not c126) c122))
-(assert (or (not c127) c79))
-(assert (or (not c128) c132))
-(assert (or (not c125) (= d125 d173)))
-(assert (or (not c126) (= d126 d122)))
-(assert (or (not c127) (= d127 d79)))
-(assert (or (not c128) (= d128 d132)))
-(assert (or (not c177) c129))
-(assert (or (not c126) c130))
-(assert (or (not c83) c131))
-(assert (or (not c136) c132))
-(assert (or (not c129) c177))
-(assert (or (not c130) c126))
-(assert (or (not c131) c83))
-(assert (or (not c132) c136))
-(assert (or (not c129) (= d129 d177)))
-(assert (or (not c130) (= d130 d126)))
-(assert (or (not c131) (= d131 d83)))
-(assert (or (not c132) (= d132 d136)))
-(assert (or (not c181) c133))
-(assert (or (not c130) c134))
-(assert (or (not c87) c135))
-(assert (or (not c140) c136))
-(assert (or (not c133) c181))
-(assert (or (not c134) c130))
-(assert (or (not c135) c87))
-(assert (or (not c136) c140))
-(assert (or (not c133) (= d133 d181)))
-(assert (or (not c134) (= d134 d130)))
-(assert (or (not c135) (= d135 d87)))
-(assert (or (not c136) (= d136 d140)))
-(assert (or (not c185) c137))
-(assert (or (not c134) c138))
-(assert (or (not c91) c139))
-(assert (or (not c144) c140))
-(assert (or (not c137) c185))
-(assert (or (not c138) c134))
-(assert (or (not c139) c91))
-(assert (or (not c140) c144))
-(assert (or (not c137) (= d137 d185)))
-(assert (or (not c138) (= d138 d134)))
-(assert (or (not c139) (= d139 d91)))
-(assert (or (not c140) (= d140 d144)))
-(assert (not c141))
-(assert (not c142))
-(assert (not c143))
-(assert (not c144))
-(assert (not c145))
-(assert (not c146))
-(assert (not c147))
-(assert (not c148))
-(assert (or (not c197) c149))
-(assert (or (not c146) c150))
-(assert (or (not c103) c151))
-(assert (or (not c156) c152))
-(assert (or (not c149) c197))
-(assert (or (not c150) c146))
-(assert (or (not c151) c103))
-(assert (or (not c152) c156))
-(assert (or (not c149) (= d149 d197)))
-(assert (or (not c150) (= d150 d146)))
-(assert (or (not c151) (= d151 d103)))
-(assert (or (not c152) (= d152 d156)))
-(assert (or (not m2) (not c150) c153))
-(assert (or (not m2) (not c107) c156))
-(assert (or (not m2) (not c160) c155))
-(assert (or (not m2) (not c201) c154))
-(assert (or (not m2) (not c153) c150))
-(assert (or (not m2) (not c156) c107))
-(assert (or (not m2) (not c155) c160))
-(assert (or (not m2) (not c154) c201))
-(assert (or m2 (not c150) c155))
-(assert (or m2 (not c107) c154))
-(assert (or m2 (not c160) c153))
-(assert (or m2 (not c201) c156))
-(assert (or m2 (not c155) c150))
-(assert (or m2 (not c154) c107))
-(assert (or m2 (not c153) c160))
-(assert (or m2 (not c156) c201))
-(assert (or (not m2) (or (not c153) (= d153 d150))))
-(assert (or (not m2) (or (not c154) (= d154 d201))))
-(assert (or (not m2) (or (not c155) (= d155 d160))))
-(assert (or (not m2) (or (not c156) (= d156 d107))))
-(assert (or m2 (or (not c153) (= d153 d160))))
-(assert (or m2 (or (not c154) (= d154 d107))))
-(assert (or m2 (or (not c155) (= d155 d150))))
-(assert (or m2 (or (not c156) (= d156 d201))))
-(assert (or (not c205) c157))
-(assert (or (not c154) c158))
-(assert (or (not c111) c159))
-(assert (or (not c164) c160))
-(assert (or (not c157) c205))
-(assert (or (not c158) c154))
-(assert (or (not c159) c111))
-(assert (or (not c160) c164))
-(assert (or (not c157) (= d157 d205)))
-(assert (or (not c158) (= d158 d154)))
-(assert (or (not c159) (= d159 d111)))
-(assert (or (not c160) (= d160 d164)))
-(assert (or (not c209) c161))
-(assert (or (not c158) c162))
-(assert (or (not c115) c163))
-(assert (or (not c168) c164))
-(assert (or (not c161) c209))
-(assert (or (not c162) c158))
-(assert (or (not c163) c115))
-(assert (or (not c164) c168))
-(assert (or (not c161) (= d161 d209)))
-(assert (or (not c162) (= d162 d158)))
-(assert (or (not c163) (= d163 d115)))
-(assert (or (not c164) (= d164 d168)))
-(assert (or (not c213) c165))
-(assert (or (not c162) c166))
-(assert (or (not c119) c167))
-(assert (or (not c172) c168))
-(assert (or (not c165) c213))
-(assert (or (not c166) c162))
-(assert (or (not c167) c119))
-(assert (or (not c168) c172))
-(assert (or (not c165) (= d165 d213)))
-(assert (or (not c166) (= d166 d162)))
-(assert (or (not c167) (= d167 d119)))
-(assert (or (not c168) (= d168 d172)))
-(assert (or (not c217) c169))
-(assert (or (not c166) c170))
-(assert (or (not c123) c171))
-(assert (or (not c176) c172))
-(assert (or (not c169) c217))
-(assert (or (not c170) c166))
-(assert (or (not c171) c123))
-(assert (or (not c172) c176))
-(assert (or (not c169) (= d169 (+ d217 1))))
-(assert (or (not c170) (= d170 (+ d166 1))))
-(assert (or (not c171) (= d171 (+ d123 1))))
-(assert (or (not c172) (= d172 (+ d176 1))))
-(assert (or (not (and (or c169 c171) (or c170 c172))) (= u0 1)))
-(assert (or (not (= u0 1)) (and (or c169 c171) (or c170 c172))))
-(assert (or (= u0 1) (= u0 0)))
-(assert (or (not c221) c173))
-(assert (or (not c170) c174))
-(assert (or (not c127) c175))
-(assert (or (not c180) c176))
-(assert (or (not c173) c221))
-(assert (or (not c174) c170))
-(assert (or (not c175) c127))
-(assert (or (not c176) c180))
-(assert (or (not c173) (= d173 d221)))
-(assert (or (not c174) (= d174 d170)))
-(assert (or (not c175) (= d175 d127)))
-(assert (or (not c176) (= d176 d180)))
-(assert (or (not c225) c177))
-(assert (or (not c174) c178))
-(assert (or (not c131) c179))
-(assert (or (not c184) c180))
-(assert (or (not c177) c225))
-(assert (or (not c178) c174))
-(assert (or (not c179) c131))
-(assert (or (not c180) c184))
-(assert (or (not c177) (= d177 d225)))
-(assert (or (not c178) (= d178 d174)))
-(assert (or (not c179) (= d179 d131)))
-(assert (or (not c180) (= d180 d184)))
-(assert (or (not c229) c181))
-(assert (or (not c178) c182))
-(assert (or (not c135) c183))
-(assert (or (not c188) c184))
-(assert (or (not c181) c229))
-(assert (or (not c182) c178))
-(assert (or (not c183) c135))
-(assert (or (not c184) c188))
-(assert (or (not c181) (= d181 d229)))
-(assert (or (not c182) (= d182 d178)))
-(assert (or (not c183) (= d183 d135)))
-(assert (or (not c184) (= d184 d188)))
-(assert (or (not c233) c185))
-(assert (or (not c182) c186))
-(assert (or (not c139) c187))
-(assert (or (not c192) c188))
-(assert (or (not c185) c233))
-(assert (or (not c186) c182))
-(assert (or (not c187) c139))
-(assert (or (not c188) c192))
-(assert (or (not c185) (= d185 d233)))
-(assert (or (not c186) (= d186 d182)))
-(assert (or (not c187) (= d187 d139)))
-(assert (or (not c188) (= d188 d192)))
-(assert c186)
-(assert (= d186 (+ 2 u0 u1 )))
-(assert (not c193))
-(assert (not c194))
-(assert (not c195))
-(assert (not c196))
-(assert (or (not c245) c197))
-(assert (or (not c194) c198))
-(assert (or (not c151) c199))
-(assert (or (not c204) c200))
-(assert (or (not c197) c245))
-(assert (or (not c198) c194))
-(assert (or (not c199) c151))
-(assert (or (not c200) c204))
-(assert (or (not c197) (= d197 d245)))
-(assert (or (not c198) (= d198 d194)))
-(assert (or (not c199) (= d199 d151)))
-(assert (or (not c200) (= d200 d204)))
-(assert (or (not c249) c201))
-(assert (or (not c198) c202))
-(assert (or (not c155) c203))
-(assert (or (not c208) c204))
-(assert (or (not c201) c249))
-(assert (or (not c202) c198))
-(assert (or (not c203) c155))
-(assert (or (not c204) c208))
-(assert (or (not c201) (= d201 (+ d249 1))))
-(assert (or (not c202) (= d202 (+ d198 1))))
-(assert (or (not c203) (= d203 (+ d155 1))))
-(assert (or (not c204) (= d204 (+ d208 1))))
-(assert (or (not (and (or c201 c203) (or c202 c204))) (= u1 1)))
-(assert (or (not (= u1 1)) (and (or c201 c203) (or c202 c204))))
-(assert (or (= u1 1) (= u1 0)))
-(assert (or (not c253) c205))
-(assert (or (not c202) c206))
-(assert (or (not c159) c207))
-(assert (or (not c212) c208))
-(assert (or (not c205) c253))
-(assert (or (not c206) c202))
-(assert (or (not c207) c159))
-(assert (or (not c208) c212))
-(assert (or (not c205) (= d205 d253)))
-(assert (or (not c206) (= d206 d202)))
-(assert (or (not c207) (= d207 d159)))
-(assert (or (not c208) (= d208 d212)))
-(assert (or (not c257) c209))
-(assert (or (not c206) c210))
-(assert (or (not c163) c211))
-(assert (or (not c216) c212))
-(assert (or (not c209) c257))
-(assert (or (not c210) c206))
-(assert (or (not c211) c163))
-(assert (or (not c212) c216))
-(assert (or (not c209) (= d209 d257)))
-(assert (or (not c210) (= d210 d206)))
-(assert (or (not c211) (= d211 d163)))
-(assert (or (not c212) (= d212 d216)))
-(assert (or (not c261) c213))
-(assert (or (not c210) c214))
-(assert (or (not c167) c215))
-(assert (or (not c220) c216))
-(assert (or (not c213) c261))
-(assert (or (not c214) c210))
-(assert (or (not c215) c167))
-(assert (or (not c216) c220))
-(assert (or (not c213) (= d213 d261)))
-(assert (or (not c214) (= d214 d210)))
-(assert (or (not c215) (= d215 d167)))
-(assert (or (not c216) (= d216 d220)))
-(assert (or (not c265) c217))
-(assert (or (not c214) c218))
-(assert (or (not c171) c219))
-(assert (or (not c224) c220))
-(assert (or (not c217) c265))
-(assert (or (not c218) c214))
-(assert (or (not c219) c171))
-(assert (or (not c220) c224))
-(assert (or (not c217) (= d217 d265)))
-(assert (or (not c218) (= d218 d214)))
-(assert (or (not c219) (= d219 d171)))
-(assert (or (not c220) (= d220 d224)))
-(assert (or (not c269) c221))
-(assert (or (not c218) c222))
-(assert (or (not c175) c223))
-(assert (or (not c228) c224))
-(assert (or (not c221) c269))
-(assert (or (not c222) c218))
-(assert (or (not c223) c175))
-(assert (or (not c224) c228))
-(assert (or (not c221) (= d221 d269)))
-(assert (or (not c222) (= d222 d218)))
-(assert (or (not c223) (= d223 d175)))
-(assert (or (not c224) (= d224 d228)))
-(assert (or (not c273) c225))
-(assert (or (not c222) c226))
-(assert (or (not c179) c227))
-(assert (or (not c232) c228))
-(assert (or (not c225) c273))
-(assert (or (not c226) c222))
-(assert (or (not c227) c179))
-(assert (or (not c228) c232))
-(assert (or (not c225) (= d225 d273)))
-(assert (or (not c226) (= d226 d222)))
-(assert (or (not c227) (= d227 d179)))
-(assert (or (not c228) (= d228 d232)))
-(assert (or (not c277) c229))
-(assert (or (not c226) c230))
-(assert (or (not c183) c231))
-(assert (or (not c236) c232))
-(assert (or (not c229) c277))
-(assert (or (not c230) c226))
-(assert (or (not c231) c183))
-(assert (or (not c232) c236))
-(assert (or (not c229) (= d229 d277)))
-(assert (or (not c230) (= d230 d226)))
-(assert (or (not c231) (= d231 d183)))
-(assert (or (not c232) (= d232 d236)))
-(assert (or (not c281) c233))
-(assert (or (not c230) c234))
-(assert (or (not c187) c235))
-(assert (or (not c240) c236))
-(assert (or (not c233) c281))
-(assert (or (not c234) c230))
-(assert (or (not c235) c187))
-(assert (or (not c236) c240))
-(assert (or (not c233) (= d233 d281)))
-(assert (or (not c234) (= d234 d230)))
-(assert (or (not c235) (= d235 d187)))
-(assert (or (not c236) (= d236 d240)))
-(assert (not c237))
-(assert (not c238))
-(assert (not c239))
-(assert (not c240))
-(assert c242)
-(assert (= d242 0))
-(assert (or (not c293) c245))
-(assert (or (not c242) c246))
-(assert (or (not c199) c247))
-(assert (or (not c252) c248))
-(assert (or (not c245) c293))
-(assert (or (not c246) c242))
-(assert (or (not c247) c199))
-(assert (or (not c248) c252))
-(assert (or (not c245) (= d245 d293)))
-(assert (or (not c246) (= d246 d242)))
-(assert (or (not c247) (= d247 d199)))
-(assert (or (not c248) (= d248 d252)))
-(assert (or (not c297) c249))
-(assert (or (not c246) c250))
-(assert (or (not c203) c251))
-(assert (or (not c256) c252))
-(assert (or (not c249) c297))
-(assert (or (not c250) c246))
-(assert (or (not c251) c203))
-(assert (or (not c252) c256))
-(assert (or (not c249) (= d249 d297)))
-(assert (or (not c250) (= d250 d246)))
-(assert (or (not c251) (= d251 d203)))
-(assert (or (not c252) (= d252 d256)))
-(assert (or (not c301) c253))
-(assert (or (not c250) c254))
-(assert (or (not c207) c255))
-(assert (or (not c260) c256))
-(assert (or (not c253) c301))
-(assert (or (not c254) c250))
-(assert (or (not c255) c207))
-(assert (or (not c256) c260))
-(assert (or (not c253) (= d253 d301)))
-(assert (or (not c254) (= d254 d250)))
-(assert (or (not c255) (= d255 d207)))
-(assert (or (not c256) (= d256 d260)))
-(assert (or (not c305) c257))
-(assert (or (not c254) c258))
-(assert (or (not c211) c259))
-(assert (or (not c264) c260))
-(assert (or (not c257) c305))
-(assert (or (not c258) c254))
-(assert (or (not c259) c211))
-(assert (or (not c260) c264))
-(assert (or (not c257) (= d257 d305)))
-(assert (or (not c258) (= d258 d254)))
-(assert (or (not c259) (= d259 d211)))
-(assert (or (not c260) (= d260 d264)))
-(assert (or (not c309) c261))
-(assert (or (not c258) c262))
-(assert (or (not c215) c263))
-(assert (or (not c268) c264))
-(assert (or (not c261) c309))
-(assert (or (not c262) c258))
-(assert (or (not c263) c215))
-(assert (or (not c264) c268))
-(assert (or (not c261) (= d261 d309)))
-(assert (or (not c262) (= d262 d258)))
-(assert (or (not c263) (= d263 d215)))
-(assert (or (not c264) (= d264 d268)))
-(assert (or (not c313) c265))
-(assert (or (not c262) c266))
-(assert (or (not c219) c267))
-(assert (or (not c272) c268))
-(assert (or (not c265) c313))
-(assert (or (not c266) c262))
-(assert (or (not c267) c219))
-(assert (or (not c268) c272))
-(assert (or (not c265) (= d265 d313)))
-(assert (or (not c266) (= d266 d262)))
-(assert (or (not c267) (= d267 d219)))
-(assert (or (not c268) (= d268 d272)))
-(assert (or (not c317) c269))
-(assert (or (not c266) c270))
-(assert (or (not c223) c271))
-(assert (or (not c276) c272))
-(assert (or (not c269) c317))
-(assert (or (not c270) c266))
-(assert (or (not c271) c223))
-(assert (or (not c272) c276))
-(assert (or (not c269) (= d269 d317)))
-(assert (or (not c270) (= d270 d266)))
-(assert (or (not c271) (= d271 d223)))
-(assert (or (not c272) (= d272 d276)))
-(assert (or (not m3) (not c270) c273))
-(assert (or (not m3) (not c227) c276))
-(assert (or (not m3) (not c280) c275))
-(assert (or (not m3) (not c321) c274))
-(assert (or (not m3) (not c273) c270))
-(assert (or (not m3) (not c276) c227))
-(assert (or (not m3) (not c275) c280))
-(assert (or (not m3) (not c274) c321))
-(assert (or m3 (not c270) c275))
-(assert (or m3 (not c227) c274))
-(assert (or m3 (not c280) c273))
-(assert (or m3 (not c321) c276))
-(assert (or m3 (not c275) c270))
-(assert (or m3 (not c274) c227))
-(assert (or m3 (not c273) c280))
-(assert (or m3 (not c276) c321))
-(assert (or (not m3) (or (not c273) (= d273 d270))))
-(assert (or (not m3) (or (not c274) (= d274 d321))))
-(assert (or (not m3) (or (not c275) (= d275 d280))))
-(assert (or (not m3) (or (not c276) (= d276 d227))))
-(assert (or m3 (or (not c273) (= d273 d280))))
-(assert (or m3 (or (not c274) (= d274 d227))))
-(assert (or m3 (or (not c275) (= d275 d270))))
-(assert (or m3 (or (not c276) (= d276 d321))))
-(assert (or (not c325) c277))
-(assert (or (not c274) c278))
-(assert (or (not c231) c279))
-(assert (or (not c284) c280))
-(assert (or (not c277) c325))
-(assert (or (not c278) c274))
-(assert (or (not c279) c231))
-(assert (or (not c280) c284))
-(assert (or (not c277) (= d277 d325)))
-(assert (or (not c278) (= d278 d274)))
-(assert (or (not c279) (= d279 d231)))
-(assert (or (not c280) (= d280 d284)))
-(assert (or (not c329) c281))
-(assert (or (not c278) c282))
-(assert (or (not c235) c283))
-(assert (or (not c288) c284))
-(assert (or (not c281) c329))
-(assert (or (not c282) c278))
-(assert (or (not c283) c235))
-(assert (or (not c284) c288))
-(assert (or (not c281) (= d281 d329)))
-(assert (or (not c282) (= d282 d278)))
-(assert (or (not c283) (= d283 d235)))
-(assert (or (not c284) (= d284 d288)))
-(assert (not c285))
-(assert (not c286))
-(assert (not c287))
-(assert (not c288))
-(assert (not c289))
-(assert (not c290))
-(assert (not c291))
-(assert (not c292))
-(assert (not c293))
-(assert (not c294))
-(assert (not c295))
-(assert (not c296))
-(assert (not c297))
-(assert (not c298))
-(assert (not c299))
-(assert (not c300))
-(assert (not c301))
-(assert (not c302))
-(assert (not c303))
-(assert (not c304))
-(assert (not c305))
-(assert (not c306))
-(assert (not c307))
-(assert (not c308))
-(assert (not c309))
-(assert (not c310))
-(assert (not c311))
-(assert (not c312))
-(assert (not c313))
-(assert (not c314))
-(assert (not c315))
-(assert (not c316))
-(assert (not c317))
-(assert (not c318))
-(assert (not c319))
-(assert (not c320))
-(assert (not c321))
-(assert (not c322))
-(assert (not c323))
-(assert (not c324))
-(assert (not c325))
-(assert (not c326))
-(assert (not c327))
-(assert (not c328))
-(assert (not c329))
-(assert (not c330))
-(assert (not c331))
-(assert (not c332))
-(assert (not c333))
-(assert (not c334))
-(assert (not c335))
-(assert (not c336))
-(check-sat)
-(get-model)
+p cnf 436 1003
+-1 0
+-2 0
+-3 0
+-4 0
+-5 0
+-6 0
+-7 0
+-8 0
+-9 0
+-10 0
+-11 0
+-12 0
+-13 0
+-14 0
+-15 0
+-16 0
+-17 0
+-18 0
+-19 0
+-20 0
+-21 0
+-22 0
+-23 0
+-24 0
+-25 0
+-26 0
+-27 0
+-28 0
+-29 0
+-30 0
+-31 0
+-32 0
+-33 0
+-34 0
+-35 0
+-36 0
+-37 0
+-38 0
+-39 0
+-40 0
+-41 0
+-42 0
+-43 0
+-44 0
+-45 0
+-46 0
+-47 0
+-48 0
+-49 0
+-50 0
+-51 0
+-52 0
+-101 53 0
+-50 54 0
+-7 55 0
+-60 56 0
+101 -53 0
+50 -54 0
+7 -55 0
+60 -56 0
+-53 55 0
+-54 56 0
+-55 53 0
+-56 54 0
+-105 57 0
+-54 58 0
+-11 59 0
+-64 60 0
+105 -57 0
+54 -58 0
+11 -59 0
+64 -60 0
+-57 59 0
+-58 60 0
+-59 57 0
+-60 58 0
+-109 61 0
+-58 62 0
+-15 63 0
+-68 64 0
+109 -61 0
+58 -62 0
+15 -63 0
+68 -64 0
+-61 63 0
+-62 64 0
+-63 61 0
+-64 62 0
+-113 65 0
+-62 66 0
+-19 67 0
+-72 68 0
+113 -65 0
+62 -66 0
+19 -67 0
+72 -68 0
+-65 67 0
+-66 68 0
+-67 65 0
+-68 66 0
+-117 69 0
+-66 70 0
+-23 71 0
+-76 72 0
+117 -69 0
+66 -70 0
+23 -71 0
+76 -72 0
+-69 71 0
+-70 72 0
+-71 69 0
+-72 70 0
+-121 73 0
+-70 74 0
+-27 75 0
+-80 76 0
+121 -73 0
+70 -74 0
+27 -75 0
+80 -76 0
+-73 75 0
+-74 76 0
+-75 73 0
+-76 74 0
+-125 77 0
+-74 78 0
+-31 79 0
+-84 80 0
+125 -77 0
+74 -78 0
+31 -79 0
+84 -80 0
+-77 79 0
+-78 80 0
+-79 77 0
+-80 78 0
+-129 81 0
+-78 82 0
+-35 83 0
+-88 84 0
+129 -81 0
+78 -82 0
+35 -83 0
+88 -84 0
+-81 83 0
+-82 84 0
+-83 81 0
+-84 82 0
+-133 85 0
+-82 86 0
+-39 87 0
+-92 88 0
+133 -85 0
+82 -86 0
+39 -87 0
+92 -88 0
+-85 87 0
+-86 88 0
+-87 85 0
+-88 86 0
+-137 89 0
+-86 90 0
+-43 91 0
+-96 92 0
+137 -89 0
+86 -90 0
+43 -91 0
+96 -92 0
+-89 91 0
+-90 92 0
+-91 89 0
+-92 90 0
+-93 0
+-94 0
+-95 0
+-96 0
+-97 0
+-98 0
+-99 0
+-100 0
+-149 101 0
+-98 102 0
+-55 103 0
+-108 104 0
+149 -101 0
+98 -102 0
+55 -103 0
+108 -104 0
+-101 103 0
+-102 104 0
+-103 101 0
+-104 102 0
+-433 -102 105 0
+-433 -59 108 0
+-433 -112 107 0
+-433 -153 106 0
+-433 102 -105 0
+-433 59 -108 0
+-433 112 -107 0
+-433 153 -106 0
+433 -102 107 0
+433 -59 106 0
+433 -112 105 0
+433 -153 108 0
+433 102 -107 0
+433 59 -106 0
+433 112 -105 0
+433 153 -108 0
+-157 109 0
+-106 110 0
+-63 111 0
+-116 112 0
+157 -109 0
+106 -110 0
+63 -111 0
+116 -112 0
+-109 111 0
+-110 112 0
+-111 109 0
+-112 110 0
+-161 113 0
+-110 114 0
+-67 115 0
+-120 116 0
+161 -113 0
+110 -114 0
+67 -115 0
+120 -116 0
+-113 115 0
+-114 116 0
+-115 113 0
+-116 114 0
+-434 -114 117 0
+-434 -71 120 0
+-434 -124 119 0
+-434 -165 118 0
+-434 114 -117 0
+-434 71 -120 0
+-434 124 -119 0
+-434 165 -118 0
+434 -114 119 0
+434 -71 118 0
+434 -124 117 0
+434 -165 120 0
+434 114 -119 0
+434 71 -118 0
+434 124 -117 0
+434 165 -120 0
+-169 121 0
+-118 122 0
+-75 123 0
+-128 124 0
+169 -121 0
+118 -122 0
+75 -123 0
+128 -124 0
+-121 123 0
+-122 124 0
+-123 121 0
+-124 122 0
+-173 125 0
+-122 126 0
+-79 127 0
+-132 128 0
+173 -125 0
+122 -126 0
+79 -127 0
+132 -128 0
+-125 127 0
+-126 128 0
+-127 125 0
+-128 126 0
+-177 129 0
+-126 130 0
+-83 131 0
+-136 132 0
+177 -129 0
+126 -130 0
+83 -131 0
+136 -132 0
+-129 131 0
+-130 132 0
+-131 129 0
+-132 130 0
+-181 133 0
+-130 134 0
+-87 135 0
+-140 136 0
+181 -133 0
+130 -134 0
+87 -135 0
+140 -136 0
+-133 135 0
+-134 136 0
+-135 133 0
+-136 134 0
+-185 137 0
+-134 138 0
+-91 139 0
+-144 140 0
+185 -137 0
+134 -138 0
+91 -139 0
+144 -140 0
+-137 139 0
+-138 140 0
+-139 137 0
+-140 138 0
+-141 0
+-142 0
+-143 0
+-144 0
+-145 0
+-146 0
+-147 0
+-148 0
+-197 149 0
+-146 150 0
+-103 151 0
+-156 152 0
+197 -149 0
+146 -150 0
+103 -151 0
+156 -152 0
+-149 151 0
+-150 152 0
+-151 149 0
+-152 150 0
+-201 153 0
+-150 154 0
+-107 155 0
+-160 156 0
+201 -153 0
+150 -154 0
+107 -155 0
+160 -156 0
+-153 155 0
+-154 156 0
+-155 153 0
+-156 154 0
+-205 157 0
+-154 158 0
+-111 159 0
+-164 160 0
+205 -157 0
+154 -158 0
+111 -159 0
+164 -160 0
+-157 159 0
+-158 160 0
+-159 157 0
+-160 158 0
+-209 161 0
+-158 162 0
+-115 163 0
+-168 164 0
+209 -161 0
+158 -162 0
+115 -163 0
+168 -164 0
+-161 163 0
+-162 164 0
+-163 161 0
+-164 162 0
+-213 165 0
+-162 166 0
+-119 167 0
+-172 168 0
+213 -165 0
+162 -166 0
+119 -167 0
+172 -168 0
+-165 167 0
+-166 168 0
+-167 165 0
+-168 166 0
+165 166 167 168 0
+-217 169 0
+-166 170 0
+-123 171 0
+-176 172 0
+217 -169 0
+166 -170 0
+123 -171 0
+176 -172 0
+-169 171 0
+-170 172 0
+-171 169 0
+-172 170 0
+-221 173 0
+-170 174 0
+-127 175 0
+-180 176 0
+221 -173 0
+170 -174 0
+127 -175 0
+180 -176 0
+-173 175 0
+-174 176 0
+-175 173 0
+-176 174 0
+-225 177 0
+-174 178 0
+-131 179 0
+-184 180 0
+225 -177 0
+174 -178 0
+131 -179 0
+184 -180 0
+-177 179 0
+-178 180 0
+-179 177 0
+-180 178 0
+-229 181 0
+-178 182 0
+-135 183 0
+-188 184 0
+229 -181 0
+178 -182 0
+135 -183 0
+188 -184 0
+-181 183 0
+-182 184 0
+-183 181 0
+-184 182 0
+-233 185 0
+-182 186 0
+-139 187 0
+-192 188 0
+233 -185 0
+182 -186 0
+139 -187 0
+192 -188 0
+-185 187 0
+-186 188 0
+-187 185 0
+-188 186 0
+-189 0
+-190 0
+-191 0
+-192 0
+-193 0
+-194 0
+-195 0
+-196 0
+-245 197 0
+-194 198 0
+-151 199 0
+-204 200 0
+245 -197 0
+194 -198 0
+151 -199 0
+204 -200 0
+-197 199 0
+-198 200 0
+-199 197 0
+-200 198 0
+-249 201 0
+-198 202 0
+-155 203 0
+-208 204 0
+249 -201 0
+198 -202 0
+155 -203 0
+208 -204 0
+-201 203 0
+-202 204 0
+-203 201 0
+-204 202 0
+-253 205 0
+-202 206 0
+-159 207 0
+-212 208 0
+253 -205 0
+202 -206 0
+159 -207 0
+212 -208 0
+-205 207 0
+-206 208 0
+-207 205 0
+-208 206 0
+-257 209 0
+-206 210 0
+-163 211 0
+-216 212 0
+257 -209 0
+206 -210 0
+163 -211 0
+216 -212 0
+-209 211 0
+-210 212 0
+-211 209 0
+-212 210 0
+-261 213 0
+-210 214 0
+-167 215 0
+-220 216 0
+261 -213 0
+210 -214 0
+167 -215 0
+220 -216 0
+-213 215 0
+-214 216 0
+-215 213 0
+-216 214 0
+-265 217 0
+-214 218 0
+-171 219 0
+-224 220 0
+265 -217 0
+214 -218 0
+171 -219 0
+224 -220 0
+-217 219 0
+-218 220 0
+-219 217 0
+-220 218 0
+-269 221 0
+-218 222 0
+-175 223 0
+-228 224 0
+269 -221 0
+218 -222 0
+175 -223 0
+228 -224 0
+-221 223 0
+-222 224 0
+-223 221 0
+-224 222 0
+-273 225 0
+-222 226 0
+-179 227 0
+-232 228 0
+273 -225 0
+222 -226 0
+179 -227 0
+232 -228 0
+-225 227 0
+-226 228 0
+-227 225 0
+-228 226 0
+-277 229 0
+-226 230 0
+-183 231 0
+-236 232 0
+277 -229 0
+226 -230 0
+183 -231 0
+236 -232 0
+-229 231 0
+-230 232 0
+-231 229 0
+-232 230 0
+-281 233 0
+-230 234 0
+-187 235 0
+-240 236 0
+281 -233 0
+230 -234 0
+187 -235 0
+240 -236 0
+-233 235 0
+-234 236 0
+-235 233 0
+-236 234 0
+-237 0
+-238 0
+-239 0
+-240 0
+242 0
+-293 245 0
+-242 246 0
+-199 247 0
+-252 248 0
+293 -245 0
+242 -246 0
+199 -247 0
+252 -248 0
+-245 247 0
+-246 248 0
+-247 245 0
+-248 246 0
+-435 -246 249 0
+-435 -203 252 0
+-435 -256 251 0
+-435 -297 250 0
+-435 246 -249 0
+-435 203 -252 0
+-435 256 -251 0
+-435 297 -250 0
+435 -246 251 0
+435 -203 250 0
+435 -256 249 0
+435 -297 252 0
+435 246 -251 0
+435 203 -250 0
+435 256 -249 0
+435 297 -252 0
+-301 253 0
+-250 254 0
+-207 255 0
+-260 256 0
+301 -253 0
+250 -254 0
+207 -255 0
+260 -256 0
+-253 255 0
+-254 256 0
+-255 253 0
+-256 254 0
+-305 257 0
+-254 258 0
+-211 259 0
+-264 260 0
+305 -257 0
+254 -258 0
+211 -259 0
+264 -260 0
+-257 259 0
+-258 260 0
+-259 257 0
+-260 258 0
+-436 -258 261 0
+-436 -215 264 0
+-436 -268 263 0
+-436 -309 262 0
+-436 258 -261 0
+-436 215 -264 0
+-436 268 -263 0
+-436 309 -262 0
+436 -258 263 0
+436 -215 262 0
+436 -268 261 0
+436 -309 264 0
+436 258 -263 0
+436 215 -262 0
+436 268 -261 0
+436 309 -264 0
+-313 265 0
+-262 266 0
+-219 267 0
+-272 268 0
+313 -265 0
+262 -266 0
+219 -267 0
+272 -268 0
+-265 267 0
+-266 268 0
+-267 265 0
+-268 266 0
+-317 269 0
+-266 270 0
+-223 271 0
+-276 272 0
+317 -269 0
+266 -270 0
+223 -271 0
+276 -272 0
+-269 271 0
+-270 272 0
+-271 269 0
+-272 270 0
+-321 273 0
+-270 274 0
+-227 275 0
+-280 276 0
+321 -273 0
+270 -274 0
+227 -275 0
+280 -276 0
+-273 275 0
+-274 276 0
+-275 273 0
+-276 274 0
+-325 277 0
+-274 278 0
+-231 279 0
+-284 280 0
+325 -277 0
+274 -278 0
+231 -279 0
+284 -280 0
+-277 279 0
+-278 280 0
+-279 277 0
+-280 278 0
+-329 281 0
+-278 282 0
+-235 283 0
+-288 284 0
+329 -281 0
+278 -282 0
+235 -283 0
+288 -284 0
+-281 283 0
+-282 284 0
+-283 281 0
+-284 282 0
+-285 0
+-286 0
+-287 0
+-288 0
+-289 0
+-290 0
+-291 0
+-292 0
+-341 293 0
+-290 294 0
+-247 295 0
+-300 296 0
+341 -293 0
+290 -294 0
+247 -295 0
+300 -296 0
+-293 295 0
+-294 296 0
+-295 293 0
+-296 294 0
+-345 297 0
+-294 298 0
+-251 299 0
+-304 300 0
+345 -297 0
+294 -298 0
+251 -299 0
+304 -300 0
+-297 299 0
+-298 300 0
+-299 297 0
+-300 298 0
+-349 301 0
+-298 302 0
+-255 303 0
+-308 304 0
+349 -301 0
+298 -302 0
+255 -303 0
+308 -304 0
+-301 303 0
+-302 304 0
+-303 301 0
+-304 302 0
+-353 305 0
+-302 306 0
+-259 307 0
+-312 308 0
+353 -305 0
+302 -306 0
+259 -307 0
+312 -308 0
+-305 307 0
+-306 308 0
+-307 305 0
+-308 306 0
+-357 309 0
+-306 310 0
+-263 311 0
+-316 312 0
+357 -309 0
+306 -310 0
+263 -311 0
+316 -312 0
+-309 311 0
+-310 312 0
+-311 309 0
+-312 310 0
+-361 313 0
+-310 314 0
+-267 315 0
+-320 316 0
+361 -313 0
+310 -314 0
+267 -315 0
+320 -316 0
+-313 315 0
+-314 316 0
+-315 313 0
+-316 314 0
+-365 317 0
+-314 318 0
+-271 319 0
+-324 320 0
+365 -317 0
+314 -318 0
+271 -319 0
+324 -320 0
+-317 319 0
+-318 320 0
+-319 317 0
+-320 318 0
+-369 321 0
+-318 322 0
+-275 323 0
+-328 324 0
+369 -321 0
+318 -322 0
+275 -323 0
+328 -324 0
+-321 323 0
+-322 324 0
+-323 321 0
+-324 322 0
+-373 325 0
+-322 326 0
+-279 327 0
+-332 328 0
+373 -325 0
+322 -326 0
+279 -327 0
+332 -328 0
+-325 327 0
+-326 328 0
+-327 325 0
+-328 326 0
+-377 329 0
+-326 330 0
+-283 331 0
+-336 332 0
+377 -329 0
+326 -330 0
+283 -331 0
+336 -332 0
+-329 331 0
+-330 332 0
+-331 329 0
+-332 330 0
+-333 0
+-334 0
+-335 0
+-336 0
+-337 0
+-338 0
+-339 0
+-340 0
+-389 341 0
+-338 342 0
+-295 343 0
+-348 344 0
+389 -341 0
+338 -342 0
+295 -343 0
+348 -344 0
+-341 343 0
+-342 344 0
+-343 341 0
+-344 342 0
+-393 345 0
+-342 346 0
+-299 347 0
+-352 348 0
+393 -345 0
+342 -346 0
+299 -347 0
+352 -348 0
+-345 347 0
+-346 348 0
+-347 345 0
+-348 346 0
+-397 349 0
+-346 350 0
+-303 351 0
+-356 352 0
+397 -349 0
+346 -350 0
+303 -351 0
+356 -352 0
+-349 351 0
+-350 352 0
+-351 349 0
+-352 350 0
+-401 353 0
+-350 354 0
+-307 355 0
+-360 356 0
+401 -353 0
+350 -354 0
+307 -355 0
+360 -356 0
+-353 355 0
+-354 356 0
+-355 353 0
+-356 354 0
+-405 357 0
+-354 358 0
+-311 359 0
+-364 360 0
+405 -357 0
+354 -358 0
+311 -359 0
+364 -360 0
+-357 359 0
+-358 360 0
+-359 357 0
+-360 358 0
+-409 361 0
+-358 362 0
+-315 363 0
+-368 364 0
+409 -361 0
+358 -362 0
+315 -363 0
+368 -364 0
+-361 363 0
+-362 364 0
+-363 361 0
+-364 362 0
+-413 365 0
+-362 366 0
+-319 367 0
+-372 368 0
+413 -365 0
+362 -366 0
+319 -367 0
+372 -368 0
+-365 367 0
+-366 368 0
+-367 365 0
+-368 366 0
+-417 369 0
+-366 370 0
+-323 371 0
+-376 372 0
+417 -369 0
+366 -370 0
+323 -371 0
+376 -372 0
+-369 371 0
+-370 372 0
+-371 369 0
+-372 370 0
+-421 373 0
+-370 374 0
+-327 375 0
+-380 376 0
+421 -373 0
+370 -374 0
+327 -375 0
+380 -376 0
+-373 375 0
+-374 376 0
+-375 373 0
+-376 374 0
+-425 377 0
+-374 378 0
+-331 379 0
+-384 380 0
+425 -377 0
+374 -378 0
+331 -379 0
+384 -380 0
+-377 379 0
+-378 380 0
+-379 377 0
+-380 378 0
+-381 0
+-382 0
+-383 0
+-384 0
+-385 0
+-386 0
+-387 0
+-388 0
+-389 0
+-390 0
+-391 0
+-392 0
+393 0
+-397 0
+-398 0
+-399 0
+-400 0
+-401 0
+-402 0
+-403 0
+-404 0
+-405 0
+-406 0
+-407 0
+-408 0
+-409 0
+-410 0
+-411 0
+-412 0
+-413 0
+-414 0
+-415 0
+-416 0
+-417 0
+-418 0
+-419 0
+-420 0
+-421 0
+-422 0
+-423 0
+-424 0
+-425 0
+-426 0
+-427 0
+-428 0
+-429 0
+-430 0
+-431 0
+-432 0
